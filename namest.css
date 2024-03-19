@@ -1,0 +1,119 @@
+body{
+    color:black;
+    letter-spacing: 1px;
+    background-color:darkcyan;
+    display:center;
+    padding:90px;
+
+}
+
+
+#wrapper{
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid rgb(14, 92, 79);
+    background: #466368;
+  background: -webkit-linear-gradient(#648880, #293f50);
+  background:    -moz-linear-gradient(#648880, #293f50);
+  background:         linear-gradient(#648880, #293f50);
+  border-radius:4px;
+}
+
+#page-banner{
+    background: #eee ;
+    padding: 10px 0;
+    background-color: rgba(45, 182, 171, 0.89);
+
+}
+
+#page-banner h1, #page-banner p{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    font-size:70px;
+    color:black;
+    text-shadow:2px 2px rgb(33, 34, 34);
+}
+
+#page-banner input{
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #444;
+}
+.boxes{
+    text-align: center;
+    border: 1px solid #21443d;
+    background-color: rgba(39, 160, 132, 0.39);
+    padding: 8px 2px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    width: 100px;
+    float: none;
+    margin: auto;
+    border-left: 0;
+    color: white;
+}
+#book-list, #add-book, #tabbed-content{
+    margin: 30px;
+}
+
+#book-list ul, #tabbed-content ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#add-book{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#add-book input{
+    display: block;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 4px 4px 4px 4px;
+    box-sizing: border-box;
+    width: 300px;
+    float: none;
+}
+
+#add-book button{
+    border: 1px solid #21443d;
+    background-color:rgba(39, 160, 132, 0.39);
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    float: none;
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
+
+#add-book:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+

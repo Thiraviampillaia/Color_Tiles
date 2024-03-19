@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+        <title>SIVARAMAN'S TEST</title>
+    </head>
+<body>
+       <link rel="stylesheet" href="styles.css">
+       <header><h1 id="tileone">SLIDING COLOUR TILES</h1></header>
+    <div id="top" style="margin-top:10px; height:1000px;">
+
+     	<div id="headpart" style="margin-top:10px; height:1000px;">
+           
+		    <div>
+                
+				 <div style="width:50%; float:left; display:inline">
+                     
+					 <h1 id="message" style="text-align:center; height:30px"></h1>
+                     <h1 id="messaget"style="text-align:center; height:30px"></h1>
+                     
+					 <div style="text-align:center; height:30px">
+                        
+						 <h1 id="moves"></h1>
+
+                         <audio id="cheers" controls="none" preload="auto" style="display:none">
+                         <source src="aud.mp3" type="audio/mp3">
+                         </audio>
+  
+                         <audio id="cut" controls="none" preload="auto" style="display:none">
+                         <source src="cut.mp3" type="audio/mp4">
+                         </audio>
+  
+                         <audio id="no" controls="none" preload="auto" style="display:none">
+                         <source src="no.mp3" type="audio/mp4">
+                         </audio>
+                         
+                     
+					  </div>
+
+                <div>
+                
+			     <canvas id="canvas" height="450px" width="450px"></canvas>
+     
+		 		</div>
+
+ 			</div>
+      
+	    	 <div style=" margin-top:50px;padding-top:2px; text-align:center;float:right;width:50%; padding-top:10px">
+                <h2 >Timer: <span id="time-left">300 </span> sec</h2>
+	 			<h1 style="font-size:40px;color:black;text-decoration:underline">ORIGINAL IMAGE</h1>
+                <canvas id="canvast" height="270px" width="270px"></canvas>
+              
+				<div style="margin:auto">
+                     <img src="images/puzz1.jpg" id="puzz1" width="90" height="90">
+                     <img src="images/puzz2.jpg" id="puzz2" width="90" height="90">
+                     <img src="images/puzz3.jpg" id="puzz3" width="90" height="90">
+                     <img src="images/puzz4.jpg" id="puzz4" width="90" height="90">
+                     <img src="images/puzz5.jpg" id="puzz5" width="90" height="90">
+                     <img src="images/puzz6.jpg" id="puzz6" width="90" height="90">
+                     <img src="images/puzz7.jpg" id="puzz7" width="450" height="450">
+                     <img src="images/puzz8.jpg" id="puzz8" width="450" height="450">
+				</div> 
+	</div>
+</div>
+<span id="resetbutton" style="cursor: pointer;background-color: cornsilk;color:black">Reset</span>
+<script src="process.js"></script>
+</body>
+</html>
